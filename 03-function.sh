@@ -275,4 +275,20 @@ echo "5. Document your functions with comments"
 echo "6. Use meaningful parameter names"
 echo
 
+# Variable declared in outside of function can be assible inside function and vice-versa
+# Before Exection
+# LHS funcation RHS
+funcation abc (){
+    echo value of a is - $a
+    echo value of b is - $b
+    echo First argument is - $1
+    echo Second argument  is - $2
+    echo all argument is - $*
+    echo count of argument is - $#
+}
+
+a = 1o
+b = 20 abc 100 200
+abc 100 200
+
 echo "Tutorial completed! You now know how to create and use functions in shell scripting."
