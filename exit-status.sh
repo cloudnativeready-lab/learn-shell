@@ -5,9 +5,9 @@
 # We can see status using $? 
 
 # Redirectors
-Input
-Output
+# Input
+# Output
 
-We get output on terminal 
-We provide input via keyboard
-if would like reaplce both with file we need to take help of redirectors
+# We get output on terminal 
+# We provide input via keyboard
+# if would like reaplce both with file we need to take help of redirectors
